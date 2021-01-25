@@ -1,0 +1,14 @@
+{
+  "name": "cypress-desktop",
+  "version": "1.0.0",
+  "description": "Cypress bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open"
+  },
+  "author": "Dairo Tenorio - dairotenorio@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.2.1"
+  }
+}
