@@ -1,0 +1,12 @@
+GIT
+    Untrack files: git rm -r --cached
+    Check SSH persmission: ssh -T git@github.com
+    Set name: git config --global user.name "John Doe"
+    Set email: git config --global user.email johndoe@example.com
+    Adding an existing project to GitHub using the command line: https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
+    No anonymous write access. Authentication failed: https://stackoverflow.com/questions/60757334/git-push-from-vs-code-no-anonymous-write-access-authentication-failed
+    fatal: protocol 'git@https' is not supported: https://stackoverflow.com/questions/52929231/fatal-protocol-githttps-is-not-supported
+    Does not provide shell access: https://github.community/t/does-not-provide-shell-access/2728
+    Error: Permission denied (publickey): https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
+    Checking for existing SSH keys: https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
+    Adding a new SSH key to your GitHub account: https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
