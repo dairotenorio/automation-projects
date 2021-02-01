@@ -26,7 +26,7 @@ GIT
     Discard: git branch -d <branch name> (used to discard a branch after is merged into the master branch)
     Clone: git clone <url>
     Pull: git pull
-    Push: git push origin(this is GitHub) main(this is Git)
+    Push: git push origin(this is GitHub) main(this is Git): https://www.atlassian.com/git/tutorials/syncing/git-push
     Merge into remote: git merge pepitoperez/master
     Repo initialized via git init looks like one cloned via git clone: git remote add origin <url>
     E.G creating a new branch work on it and merge into the main branch:
