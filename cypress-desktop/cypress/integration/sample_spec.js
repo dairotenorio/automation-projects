@@ -9,8 +9,4 @@ describe('Suite of tests sample feature', function(){
           .type('fake@email.com')
           .should('have.value', 'fake@email.com')
     });
-
-    it('', () => {
-        
-    });
 })
