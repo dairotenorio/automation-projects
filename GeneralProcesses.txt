@@ -10,3 +10,34 @@ GIT
     Error: Permission denied (publickey): https://docs.github.com/en/github/authenticating-to-github/error-permission-denied-publickey
     Checking for existing SSH keys: https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
     Adding a new SSH key to your GitHub account: https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
+    Initialize git in a project: git init -b main
+    Status: git status
+    Add a file: git add <file name> / git add . (add everything changed)
+    Remove files from add: git reset
+    Remove .DS_Store when is beinng tracked: find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+    Add new and changed files: git add --all
+    Commit: git commit -m 'message for commit'
+    Difference: git diff
+    Undo: git checkout <file name> or <revision number> / git checkout . (undo everything or goes to another branch)
+    Commit history: git log / git log --oneline (shows one line) / git log -p (list all changes) / git log -- <file name> (all commits that modified this file)
+    Go to head: git checkout master (should be applied after doing git checkout in order not to lose new changes)
+    New branch: git branch <branch name>
+    Merge branches: git merge <branch name>
+    Discard: git branch -d <branch name> (used to discard a branch after is merged into the master branch)
+    Clone: git clone <url>
+    Pull: git pull
+    Push: git push origin(this is GitHub) main(this is Git)
+    Merge into remote: git merge pepitoperez/master
+    Repo initialized via git init looks like one cloned via git clone: git remote add origin <url>
+    E.G creating a new branch work on it and merge into the main branch:
+        git branch correccion-sintactica
+        git checkout correccion-sintactica
+        (Work and commit until the correction)
+        git checkout master
+        git merge correccion-sintactica
+        git branch -d correccion-sintactica
+
+
+Cypress
+    The describe and it come from mocha: https://mochajs.org/
+    The assertions in Cypress come from chai: https://www.chaijs.com/guide/styles/#expect
