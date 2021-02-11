@@ -25,6 +25,8 @@ GIT
     Push new branch: git push -u origin set_up_environment
     Merge branches: git merge <branch name>
     Discard: git branch -d <branch name> (used to discard a branch after is merged into the master branch)
+    Check branch activity: git log
+    Revert to a previous version: git revert 6112cad32751cd6d631fdedf2898f9ff8c073d12 (this is the version to revert to)
     Clone: git clone <url>
     Pull: git pull
     Push: git push origin(this is GitHub) main(this is Git): https://www.atlassian.com/git/tutorials/syncing/git-push
