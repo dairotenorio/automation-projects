@@ -22,6 +22,7 @@ GIT
     Commit history: git log / git log --oneline (shows one line) / git log -p (list all changes) / git log -- <file name> (all commits that modified this file)
     Go to head: git checkout master (should be applied after doing git checkout in order not to lose new changes)
     New branch: git branch <branch name>
+    Push new branch: git push -u origin set_up_environment
     Merge branches: git merge <branch name>
     Discard: git branch -d <branch name> (used to discard a branch after is merged into the master branch)
     Clone: git clone <url>
